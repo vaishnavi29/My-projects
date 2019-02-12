@@ -1,0 +1,30 @@
+AdaBoost:
+
+1. Run main.py: 
+-Performs activation calc
+-Runs adaBoost for T=0,10,50,100
+-Plots the top 20haar filters
+-Prints the alphas of top 20haar filters
+-Plots histograms, roc, and other required graphs 
+-Performs face detection on three test images(with nms)
+-Performs hard negative mining and trains again for t=100
+-Performs face detection on three test images(with nms) after hard negative mining. 
+
+2. Folders to be present:
+- Please create a folder called "sorted_filters" to cache the sorted activations. 
+- In Main.py Change the paths of
+   pos_data_dir    
+   neg_data_dir
+
+RealBoost:
+
+1. Run main_realboost.py: 
+-Performs activation calc
+-Run the real boost for T=10,50,100
+-Plot roc and histograms as required
+
+2. Folders to be present:
+-The file "chosen_wcs.pkl" that will be created from running adaBoost.
+
+
+
