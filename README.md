@@ -25,3 +25,12 @@ Performed dimensionality reduction and reconstruction of facial images using Eig
 5.Feature Extraction and Image Classification for 3D Data
 
 Explored which classifiers may work on 3D image data and what changes and improvements are required and/or possible to achieve maximum accuracy.
+
+6. Classification Analysis on Textual Data
+
+Constructed tf-idf representations of textual data, implemented various common classification methods,evaluated and diagnosed classification results, performed two dimensionality reduction methods: PCA & NMF.
+Includes the complete pipeline of a textual data classification task
+
+7. Clustering on Textual Data:
+
+implement K-means clustering on the dataset, and evaluate the performance of the clustering.Also did different preprocessing methods which did increase the performance of the clustering.
